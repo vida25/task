@@ -1,0 +1,358 @@
+  @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+  * {
+    font-family: 'Open Sans', Arial, sans-serif;
+  }
+
+  a {
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+  }
+
+  /* clearfix ie9 and up*/
+
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* background middle section */
+
+  html {
+    background-color: #f1f1f1;
+  }
+
+  /* background top section */
+  .top-section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #e1e1e1;
+    z-index: -1;
+  }
+
+  /* background bottom section */
+  .footer-bottom {
+    height: 372px;
+    background-color: #e1e1e1;
+    z-index: -1;
+    margin: -271px 0 0 0;
+  }
+
+  /* main-container */
+  .wrapper {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* header */
+  header.header {
+    height: 100px;
+    background: #53545e;
+  }
+
+  header.header img {
+    margin-left: 33px;
+  }
+
+  .header-left-logo {
+    margin-top: 34px;
+  }
+
+  .header-left-title {
+    margin-top: 31px;
+  }
+
+  .header-left-logo, .header-left-title {
+    float: left;
+    height: 30px;
+  }
+
+  .header-left-title>a>span:nth-child(1) {
+    margin-left: 20px;
+    color: #fff;
+  }
+
+  .header-left-title {
+    font-size: 0;
+  }
+
+  .header-left-title>a>span:nth-child(2) {
+    color: #a6a7b0;
+  }
+
+  .header-left-title>a>span {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+  }
+
+  .header-right {
+    float: right;
+    margin: 45px 30px 0 0;
+    text-align: right;
+  }
+  .header-right>span {
+    display: inline-block;
+    color: #f1f1f1;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  /* container for main content of the page  */
+
+  .content {
+    background: #fff;
+    font-size: 0;
+    padding: 0 30px;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* sections articles */
+
+  .section {
+    padding: 30px 0;
+    border-bottom: 1px solid #eaeaea;
+  }
+
+  .section:last-child {
+      border-bottom: none;
+  }
+
+  .study-img {
+    width: 100%;
+    background: url('../img/container.png');
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+        -ms-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+  }
+
+  .article-heading {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #53545e;
+    margin-bottom: 20px;
+  }
+
+  .article p {
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+    font-size: 13px;
+    color: #bfc0c3;
+  }
+
+  .details {
+    background-color: #53545e;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+    height: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 80px;
+  }
+
+  .small-article:nth-child(2n) {
+    width: 48%;
+    float: right;
+    margin-left: 10px;
+  }
+  .small-article:nth-child(2n+1) {
+    width: 48%;
+    float: left;
+    margin-right: 10px;
+  }
+
+/* add foto   */
+
+  .add-foto {
+    width: 540px;
+    margin: 0 auto;
+  }
+
+ .add-foto>div {
+    cursor: pointer;
+    display: inline-block;
+    min-width: 160px;
+    min-height: 160px;
+    line-height: 160px;
+    background-color: #dedede;
+    text-align: center;
+ }
+
+  .add-foto>div:nth-child(2) {
+    margin: 0 30px;
+  }
+
+ .add-foto>div span {
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 auto;
+    color: #b4b4b4;
+ }
+
+ /* Footer  */
+
+  .wrapper>footer {
+    background: #53545e;
+  }
+
+  .stay-connected {
+    height: 75px;
+    font-size: 0;
+    padding: 0 30px;
+    background: #f1f1f1;
+  }
+
+  .stay-connected span {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #53545e;
+    margin: 25px 0 0 0;
+  }
+
+  .social-networks {
+    float: right;
+    margin-top: 20px;
+  }
+
+  .social-networks > a {
+    display: inline-block;
+    height: 34px;
+    width: 34px;
+    border: none;
+    -webkit-border-radius: 18px;
+       -moz-border-radius: 18px;
+            border-radius: 18px;
+    background-color: #e1e1e1;
+    background-image: url('../img/sn.png');
+    background-repeat: no-repeat;
+    margin-right: 10px;
+  }
+
+  .social-networks > a:nth-child(1) {
+    background-position: 9px 6px;
+  }
+
+  .social-networks > a:nth-child(2) {
+    background-position: -35px 6px;
+  }
+
+  .social-networks > a:nth-child(3) {
+    background-position: -79px 6px;
+  }
+
+  .social-networks > a:nth-child(4) {
+    background-position: -123px 6px;
+  }
+
+  .social-networks > a:nth-child(5) {
+    background-position: -166px 6px;
+  }
+
+  .social-networks > a:nth-child(6) {
+    background-position: -211px 6px;
+  }
+
+  .social-networks > a:nth-child(7) {
+    background-position: -254px 6px;
+  }
+  .social-networks > a:nth-child(8) {
+    background-position: -298px 6px;
+    margin-right: 3px;
+  }
+
+  .footer-links {
+    height: 119px;
+    padding: 27px 30px 0 30px;
+  }
+
+  .footer-links p {
+    color: #fff;
+    float: left;
+    font-size: 13px;
+    line-height: 24px;
+    margin: 0;
+    width: 65%;
+  }
+
+  .footer-links ul {
+    margin: 0;
+    float: right;
+    list-style-type: none;
+  }
+
+  .wrapper>footer {
+    position: relative;
+    width: 100%;
+  }
+
+  .footer-links ul a {
+    color: #fff;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 24px;
+  }
+
+  .bullet-img {
+    display: inline-block;
+    background: url('../img/bullet.png') no-repeat;
+    margin-right: 8px;
+    width: 10px;
+    height: 10px;
+  }
+
+  .right-reserved {
+    margin: 0 30px;
+    height: 49px;
+    border-top: 1px solid #a6a7b0;
+    color: #a6a7b0;
+    font-size: 0;
+  }
+
+  .right-reserved>div:nth-child(1),
+  .right-reserved>div:nth-child(2) {
+    float: left;
+    margin-top: 12px;
+    font-size: 12px;
+    line-height: 24px;
+  }
+
+  .right-reserved>div:nth-child(1) a {
+    color: #fff;
+  }
+
+  .right-reserved>div:nth-child(2) {
+    float: right;
+    font-size: 12px;
+    line-height: 24px;
+    text-transform: capitalize;
+  }
+
+  .right-reserved>div:nth-child(2) a {
+    color: #a6a7b0;
+  }
